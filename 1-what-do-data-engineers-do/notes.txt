@@ -1,0 +1,19 @@
+Imagine that you are hired to enable data analytics; where would you start? How would you go about gathering requirements? Hint: Think backward from what the business may need.
+
+If "hired" means a long-term full-time function meant to "do data analytics"
+1) Idenitfy the products or services being sold. To start, pick 1-2 high-impact products/services to help drive interest in our analytics product and will also have higher likelihood to demonstrate value.
+2) For a particular product/service, work with stakeholders to map out the value stream. What are the sequence and interaction of processes that lead to product/service delivery?
+3) Identify IT systems (loosely defined as this could include Excel trackers) involved in these processes and starting mapping out all the data generated in current state
+Sort of all in parallel:
+4a) Try to get a quick and dirty data model together with current state data - I would be partial to using something like Power BI as I'm familiar with it already. Customer dimension, sales fact, whatever process-related data may be useful, e.g. orders, etc., customer feedback, sales teams / business lines / geographic depts / etc.
+4b) Conduct exploratory analysis, try to look for patterns/correlations - try mapping inputs/outputs, eg cost of sales : revenue, sales team resources : # orders, and KPIs that may be concerning / leadership would want to dig into (e.g. steady decreasing customer satisfaction, measurements of waste)
+4c) Talk to stakeholders to try to learn about areas of concern / opportunities for improvement. Brainstorm on what data are available and if they can support telling a story to highlight the issue/opportunity
+--this is moving out of just requirements gathering...
+5) Finalize a report with 1-3 most compelling data stories we were able to dig up from #4, present to stakeholders and leadership. If successful, use buy-in from leadership to get authority and resources to start building out a more permanent and scalable data solution, digitize/modernize processes to produce higher-quality more digestible data, set up automatic ETL orchestrations, etc.
+6) Establish continual improvement processes to ensure analytics products continue to meet needs of business, continue to refine and provide new analysis as needed
+
+If "hired" means a short-term consultant for a few weeks or months:
+1) Identify who are the inteded consumers of the analytics
+2) Talk with those people/teams to understand what are the services they provide / processes they perform. 
+3) As part of services/processes, where do they feel is greatest/most impactful lack of visibility / information? What are the key decision-points and what are the inputs into that decision-making - are there opportunities to make those inputs more data-driven?
+4) Map out what data exist that could meet identified needs, idenitfy how to query or copy data
